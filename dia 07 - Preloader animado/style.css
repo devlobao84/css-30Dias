@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#div1 {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 10%;
+    animation: div1 2s ease-in-out infinite;
+}
+
+#div2 {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 10%;
+    animation: div2 2s ease-in-out infinite;
+}
+
+#div3 {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 10%;
+    animation: div3 2s ease-in-out infinite;
+}
+
+#div4 {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    background-color: none;
+    border-radius: 10%;
+}
+
+@keyframes div1 {
+    8% {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    16% {
+        position: relative;
+        left: 50%;
+        top: 0;
+    }
+
+    24% {
+        position: relative;
+        left: 50%;
+        top: 0;
+    }
+
+    32% {
+        position: relative;
+        left: 50%;
+        top: 0;
+    }
+
+    40% {
+        position: relative;
+        left: 50%;
+        top: 50%;
+    }
+
+    48% {
+        position: relative;
+        left: 50%;
+        top: 50%;
+    }
+
+    56% {
+        position: relative;
+        left: 50%;
+        top: 50%;
+    }
+
+    64% {
+        position: relative;
+        left: 0;
+        top: 50%;
+    }
+
+    72% {
+        position: relative;
+        left: 0;
+        top: 50%;
+    }
+
+    80% {
+        position: relative;
+        left: 0;
+        top: 50%;
+    }
+
+    88% {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    100% {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+}
+
+@keyframes div2 {
+    8% {
+        position: relative;
+        left: 0;
+        top: 50%;
+    }
+
+    16% {
+        position: relative;
+        left: 0;
+        top: 50%;
+    }
+
+    24% {
+        position: relative;
+        left: 0;
+        top: 50%;
+    }
+
+    32% {
+        position: relative;
+        left: -50%;
+        top: 50%;
+    }
+
+    40% {
+        position: relative;
+        left: -50%;
+        top: 50%;
+    }
+
+    48% {
+        position: relative;
+        left: -50%;
+        top: 50%;
+    }
+
+    56% {
+        position: relative;
+        left: -50%;
+        top: 0;
+    }
+
+    64% {
+        position: relative;
+        left: -50%;
+        top: 0;
+    }
+
+    72% {
+        position: relative;
+        left: -50%;
+        top: 0;
+    }
+
+    80% {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    88% {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    100% {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+}
+
+@keyframes div3 {
+    8% {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    16% {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    24% {
+        position: relative;
+        left: 0;
+        top: -50%;
+    }
+
+    32% {
+        position: relative;
+        left: 0;
+        top: -50%;
+    }
+
+    40% {
+        position: relative;
+        left: 0;
+        top: -50%;
+    }
+
+    48% {
+        position: relative;
+        left: 50%;
+        top: -50%;
+    }
+
+    56% {
+        position: relative;
+        left: 50%;
+        top: -50%;
+    }
+
+    64% {
+        position: relative;
+        left: 50%;
+        top: -50%;
+    }
+
+    72% {
+        position: relative;
+        left: 50%;
+        top: 0;
+    }
+
+    80% {
+        position: relative;
+        left: 50%;
+        top: 0;
+    }
+
+    88% {
+        position: relative;
+        left: 50%;
+        top: 0;
+    }
+
+    100% {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+}

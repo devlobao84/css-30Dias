@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(10, 43, 48, 0.363);
+}
+
+span {
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-image:url(./plano-de-fundo.jpg) ;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: text-background 20s linear infinite;
+}
+
+@keyframes text-background {
+
+	from { background-position: 0 0 }
+
+	to { background-position: 100% 100% }
+
+} 

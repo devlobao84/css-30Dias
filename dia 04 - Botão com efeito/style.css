@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+SA+Beginner:wght@400;500&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(77, 70, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Bebas Neue";
+}
+
+button {
+    display: flex;
+    font-size: 40px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: rgb(77, 70, 95);
+    padding: 20px;
+    border: 5px solid;
+    cursor: pointer;
+    position: relative;
+}
+
+button::before, button::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    background-color: rgb(77, 70, 95);
+    transition: 0.5s linear;
+}
+
+button::before
+{
+    top: -5px;
+    left: 10%;
+}
+button::after
+{
+    bottom: -5px;
+    right: 10%;
+}
+button:hover::before
+{
+    left: 80%;
+}
+button:hover::after
+{
+    right: 80%;
+}

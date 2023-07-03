@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu {
+    display: flex;
+    position: relative;
+    padding: 0px;
+}
+
+#facebook {
+    transform: rotate(-30deg) skew(25deg);
+    list-style: none;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 30px;
+}
+
+#facebook a {
+    color: #3b5998;
+    margin: 20px;
+    font-size: 70px;
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#twitter {
+    transform: rotate(-30deg) skew(25deg);
+    list-style: none;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 30px;
+}
+
+#twitter a {
+    color: #00acee;
+    margin: 20px;
+    font-size: 70px;
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#linkedin {
+    transform: rotate(-30deg) skew(25deg);
+    list-style: none;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 30px;
+}
+
+#linkedin a {
+    color: #0e76a8;
+    margin: 20px;
+    font-size: 70px;
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#instagram {
+    transform: rotate(-30deg) skew(25deg);
+    list-style: none;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 30px;
+}
+
+#instagram a {
+    color: #fc0fc0;
+    margin: 20px;
+    font-size: 70px;
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#youtube {
+    transform: rotate(-30deg) skew(25deg);
+    list-style: none;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 30px;
+}
+
+#youtube a {
+    color: #ff0000;
+    margin: 20px;
+    font-size: 70px;
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#menu li:hover a:nth-child(5) {
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+
+#menu li:hover a:nth-child(4) {
+    transform: translate(30px, -30px);
+    opacity: 0.8;
+}
+
+#menu li:hover a:nth-child(3) {
+    transform: translate(20px, -20px);
+    opacity: 0.6;
+}
+
+#menu li:hover a:nth-child(2) {
+    transform: translate(10px, -10px);
+    opacity: 0.4;
+}
+
+#menu li:hover a:nth-child(1) {
+    transform: translate(0,0);
+    opacity: .2;
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+SA+Beginner:wght@400;500&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(11, 11, 48);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bebas Neue";
+}
+
+#div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(86, 223, 247, 0.2);
+    box-shadow: 0px 0px 10px 10px rgba(86, 223, 247, 0.2);
+    animation:pulsar  1s linear infinite;
+    position: absolute;
+}
+
+@keyframes pulsar {
+    0% {
+        width: 120px;
+        height: 120px;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+#div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(86, 223, 247);
+    position: relative;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}

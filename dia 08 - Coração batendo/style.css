@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.coracao {
+    color: red;
+    font-size: 200px;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: batida 1.5s ease-in-out infinite;
+}
+
+@keyframes batida {
+    0% {
+        font-size: 200px;
+    }
+    40% {
+        font-size: 200px;
+    }
+    50% {
+        font-size: 300px;
+    }
+    70% {
+        font-size: 250px;
+    }
+    90% {
+        font-size: 300px;
+    }
+    100% {
+        font-size: 200px;
+    }
+}

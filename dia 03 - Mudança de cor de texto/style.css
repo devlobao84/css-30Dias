@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+SA+Beginner:wght@400;500&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Bebas Neue";
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+}
+
+#div1 {
+    width: 50vw;
+    height: 100vh;
+    background-color: red;
+    border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 100PX;
+    font-weight: 900;
+    overflow: hidden;
+}
+
+#div1 div {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+#div1 div span {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    animation: passa1 30s linear infinite;
+    white-space: nowrap;
+}
+
+#div2 {
+    width: 50vw;
+    height: 100vh;
+    background-color: yellow;
+    border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 100PX;
+    font-weight: 900;
+    overflow: hidden;
+}
+
+#div2 div {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+#div2 div span {
+    width: 100%;
+    height: 300%;
+    overflow: hidden;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: passa 20s linear infinite; 
+    white-space: nowrap;
+}
+
+@keyframes passa {
+        from {
+            margin-left: -15px;
+            height: 300%
+          }
+        
+          to {
+            margin-left: -200%;
+            height: 100%;
+          }
+    }
+
+@keyframes passa1 {
+        from {
+            margin-left: 100%;
+            height: 300%
+          }
+        
+          to {
+            margin-left: -200%;
+            height: 100%;
+          }
+    }

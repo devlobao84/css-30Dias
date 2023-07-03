@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#container {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: 400;
+}
+
+#container-img {
+    margin-left: 50px;
+    position: relative;
+}
+
+#container-img img:nth-child(1) {
+    position: absolute;
+    top: -45px;
+    animation: img1 3s linear infinite;
+}
+#container-img img:nth-child(2) {
+    position: absolute;
+    top: -45px;
+    animation: img2 3s linear infinite;
+}
+#container-img img:nth-child(3) {
+    position: absolute;
+    top: -45px;
+    animation: img3 3s linear infinite;
+}
+
+#container-img img {
+    height: 100px;
+}
+
+@keyframes img1 {
+    0% {
+        visibility: visible;
+    }
+    30% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+@keyframes img2 {
+    0% {
+        visibility: hidden;
+    }
+    33% {
+        visibility: hidden;
+    }
+    35% {
+        visibility: visible;
+    }
+    60% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+@keyframes img3 {
+    0% {
+        visibility: hidden;
+    }
+    39% {
+        visibility: hidden;
+    }
+    60% {
+        visibility: hidden;
+    }
+    65% {
+        visibility: visible;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
